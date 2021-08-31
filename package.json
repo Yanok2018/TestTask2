@@ -22,5 +22,6 @@
     "jquery": "^3.6.0",
     "mysql": "github:mysqljs/mysql",
     "mysql2": "^2.3.0"
-  }
+  },
+  "type": "commonjs"
 }

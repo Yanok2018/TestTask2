@@ -70,8 +70,11 @@ var $range = $(".js-range-slider"),
 
 
 
-// const mysql = require("mysql2");
+ //var mysql = require("mysql2");
+ //import mysql from 'mysql2';
   
+
+
 // const connection = mysql.createConnection({
 //   host: "localhost",
 //   user: "root",
