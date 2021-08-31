@@ -1,0 +1,29 @@
+body {
+    margin: 60px;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+.range-slider {
+    position: relative;
+    height: 80px;
+}
+.custom-grid {
+  position: relative;
+}
+.custom-grid .irs-grid {
+  display: block;
+}
+
+.navbar {
+   width: 100%;
+   height: 100px;
+   background-color: #512DA8;
+}
+
+.fl-ol {
+  margin-top: 50px;
+}
+
+.range-slider{
+  margin-top: 50px;
+}
