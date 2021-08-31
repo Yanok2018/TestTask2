@@ -19,6 +19,8 @@
   "homepage": "https://github.com/Yanok2018/TestTask2#readme",
   "dependencies": {
     "ion-rangeslider": "^2.3.1",
-    "jquery": "^3.6.0"
+    "jquery": "^3.6.0",
+    "mysql": "github:mysqljs/mysql",
+    "mysql2": "^2.3.0"
   }
 }

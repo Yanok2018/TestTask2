@@ -2,13 +2,13 @@
 
 $(".js-range-slider").ionRangeSlider();
 let my_range = $(".js-range-slider").data("ionRangeSlider");
-var lpf = document.getElementById("lbOff_On");
+var lpf = document.getElementById("lbOff_On");//lbOff_On  
 lpf.append("Off");
 
 function toggleBilling() {
     if( $("input").is(':checked') )
     {
-        $('label[id*="lbOff_On"]').text(""); // очистка label
+        $('label[id*="lbOff_On"]').text("");
         lpf.append("On"); //  label => On
         my_range.update({
             max:100,
@@ -17,7 +17,7 @@ function toggleBilling() {
             
             onStart: function(data) {              //}
                 $input.prop("value", data.from);   //}
-            },                                     //} = Вивод на нижній дачик
+            },                                     //} print on down
             onChange: function(data) {             //}
                 $input.prop("value", data.from);   //}
             }
@@ -26,8 +26,8 @@ function toggleBilling() {
     }
     else{
         $('label[id*="lbOff_On"]').text("");
-        $('input[id*="id_in_table"]'.valueOf="0"); // очистка label
-        lpf.append("Off"); //  label => Off
+        $('input[id*="id_in_table"]'.valueOf="0"); 
+        lpf.append("Devise is Off"); //  label => Off
         my_range.update({
             max:0,
             from: 0,
@@ -67,3 +67,32 @@ var $range = $(".js-range-slider"),
         
      });
 });
+
+
+
+// const mysql = require("mysql2");
+  
+// const connection = mysql.createConnection({
+//   host: "localhost",
+//   user: "root",
+//   database: "usersdb",
+//   password: "1234"
+// }); 
+// //testing conection
+// connection.connect(function(err){
+//     if (err) {
+//       return console.error("Ошибка: " + err.message);
+//     }
+//     else{
+//       console.log("Подключение к серверу MySQL успешно установлено");
+//     }
+//  });
+
+
+// // close connection
+// connection.end(function(err) {
+//     if (err) {
+//       return console.log("Ошибка: " + err.message);
+//     }
+//     console.log("Подключение закрыто");
+//   });
